@@ -1,0 +1,1 @@
+geth --datadir /geth_node/datadir --bootnodes "enode://30f8e12c60eed7f27a6a82fca8ab3aaf0de8fcf064377927addf6967b12eb9cea1fd71cc680697150f6456a22904e675bf379ecb5d0983000f626749534c0ed7@172.19.0.2:30303" --rpc --rpccorsdomain "*" --rpcvhosts "*" --ethstats="$HOSTNAME:secret@backend:3000" console 2> /geth_node/log
